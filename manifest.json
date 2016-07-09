@@ -1,0 +1,20 @@
+﻿{ 
+  "name": "Draw & Erase on web_multi tabs",
+  "version": "3.0",
+  "description": "Draw & Erase on web_multi tabs",
+
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  },
+
+  "browser_action": {
+    "default_title": "Draw & Erase on web_multi tabs",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "tabs"
+  ],
+  "manifest_version": 2
+}

@@ -1,0 +1,1 @@
+ctx.globalCompositeOperation = "destination-out";
